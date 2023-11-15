@@ -1,9 +1,7 @@
 import streamlit as st
-#oss 중간 시험결과
-OSS_Score=[80,70,55,30,3,3,1,0]
-st.write("# OSS 중간 시험 결과")
-st.write("## 애들아 공부 좀 하자")
-st.write("### 집에도 일찍 가자")
-OSS_Score
+import pandas as pd
+import numpy as np
+st.write("23113741 권연호")
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
-st.bar_chart(OSS_Score)
+st.area_chart(chart_data)
