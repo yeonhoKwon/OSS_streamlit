@@ -7,7 +7,7 @@ import streamlit as st
 st.title("💬 Chatbot with OpenAI GPT")
 
 st.caption("🚀 Made by wisdom")
-st.text("23113741 권연호")
+
  
 
 with st.sidebar:
